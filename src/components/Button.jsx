@@ -54,7 +54,7 @@ ButtonPrimary.propTypes = {
  */
 
 const ButtonOutline = ({
-  href,
+  href = 'public/cv.pdf',
   target = '_self',
   label,
   icon,
@@ -66,6 +66,7 @@ const ButtonOutline = ({
         href={href}
         target={target}
         className={"btn btn-outline " + classes}
+        download={true}
       >
         {label}
 
