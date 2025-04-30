@@ -19,10 +19,10 @@ const works = [
     projectLink: 'https://climax-weather.netlify.app/'
   },
   {
-    imgSrc: '/images/project-3.jpg',
+    imgSrc: '/images/project-3.png',
     title: 'PortFolio Website',
-    tags: ['Development'],
-    projectLink: ''
+    tags: ['React Js','TailwindCSS'],
+    projectLink: 'https://sksaran-portfolio.netlify.app/'
   },
   // {
   //   imgSrc: '/images/project-4.jpg',
